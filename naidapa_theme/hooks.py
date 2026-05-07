@@ -109,7 +109,8 @@ portal_menu_items = [
 # ------------
 
 # before_install = "naidapa_theme.install.before_install"
-# after_install = "naidapa_theme.install.after_install"
+after_install = "naidapa_theme.install.after_install"
+after_migrate = "naidapa_theme.install.after_migrate"
 
 # Uninstallation
 # ------------
